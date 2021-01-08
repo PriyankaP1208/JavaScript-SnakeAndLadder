@@ -17,6 +17,8 @@ class SnakeAndLadder{
 				case 2:
 						position+=die;
 						console.log("ladder");
+						if(position<=10)
+							position+=die;
 						break;
 				case 3:
 					    console.log("Snake");
