@@ -1,2 +1,2 @@
 const utility=require('./utility');
-utility.snakeAndLadder();
+utility.twoPlayer();
